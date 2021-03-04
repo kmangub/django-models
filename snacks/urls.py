@@ -1,3 +1,4 @@
+from snacks.models import Snack
 from django.urls import path, include
 from .views import SnackListView, SnackDetailView
 
